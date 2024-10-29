@@ -9,7 +9,3 @@ local function ReadFile(filename)
     file:close()
     return content
 end
-
--- How To Read Example:
--- local Content = ReadFile("MyFile.txt")
--- print(Content)
